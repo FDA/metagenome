@@ -1,4 +1,4 @@
-# metagenome
+# Metagenome
 ## **Project name:** 
  Divergence, lowest common ancestor, and antibiotic resistance profiling pipeline
 ## **Description:** 
