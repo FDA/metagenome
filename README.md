@@ -16,3 +16,5 @@ No installation required. Simply download or copy scripts and change all /direct
 6c. cat_contigs.py is ran and uses 500_scaffold.txt + blastx_genes.txt + blastn_scaff.txt to categorize scaffolds/contigs into either known, divergent, or novel creating outputs known_contigs.txt, div_contigs.txt, novel_contigs.txt, cat_contigs_summary.txt, and scaff_class.txt. 
 7. pred_genes.fasta is mapped with blastx to NCBI's refseq database using run_refseq_blastx.sh 
 8. make_taxonomy_tables.py runs extract_tax.sh and uses output from run_refseq_blastx.sh to create refseq_blastx_genes.txt through a lowest common ancestor taxonomy assignment.
+9. build_database.R create the backbone/organization of the database
+10. add_to_database.R fills the database with outputs from steps 6c, 7, 8 and get_lca.py
